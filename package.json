@@ -1,0 +1,26 @@
+{
+  "name"                  : "clever-spotify-backend",
+  "description"           : "CleverStack NodeJS Backend Module for the Spotify example/tutorial application (http://bit.ly/25HqJSY)",
+  "version"               : "0.0.1",
+  "main"                  : "module",
+  "author": {
+    "name"                : "Richard Gustin",
+    "email"               : "richard.gustin86@gmail.com",
+    "web"                 : "cleverstack.io"
+  },
+  "dependencies": {
+    "async"               : "^0.9.0",
+    "ffmetadata"          : "^1.3.0",
+    "mkdirp"              : "^0.5.0",
+    "request"             : "^2.51.0",
+    "sanitize-filename"   : "^1.1.1",
+    "spotify-web"         : "^1.3.0"
+  },
+  "devDependencies": {
+    
+  },
+  "peerDependencies": {
+    "clever-orm"              : "~2.x",
+    "clever-background-tasks" : "~1.x"
+  }
+}

@@ -35,3 +35,15 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+.nbrun
+.DS_Store
+.netbeans.xml
+.idea
+config/local.json
+test-results.xml
+!.gitignore
+.*.swp
+local.json
+
+.sublime-grunt.cache
